@@ -4,10 +4,8 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
 import HomePage from './pages/HomePage'
-import KelasPage from './pages/KelasPage'
-import TestimonialPage from './pages/TestimonialPage'
-import SyaratKetenPage from './pages/SyaratKetenPage'
-import FaqPage from './pages/FaqPage'
+import DispensablePage from './pages/DispensablePage'
+import ChangePreventerPage from './pages/ChangePreventer'
 
 
 export default function App() {
@@ -16,10 +14,8 @@ export default function App() {
       <NavBar />
        <Routes>
           <Route path='/' Component={HomePage}/>
-          <Route path='/kelas' Component={KelasPage}/>
-          <Route path='/testimonial' Component={TestimonialPage}/>
-          <Route path='/faq' Component={FaqPage}/>
-          <Route path='/syaratketen' Component={SyaratKetenPage}/>
+          <Route path='/dispensables' Component={DispensablePage}/>
+          <Route path='/changepreventer' Component={ChangePreventerPage}/>
        </Routes>
        <Footer />
     </div>

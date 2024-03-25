@@ -25,7 +25,7 @@ const NavBar = () => {
     <div>
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <Navbar.Brand href="#home" className='fs-3 fw-bold'>MCO</Navbar.Brand>
+          <Navbar.Brand href="#home" className='fs-3 fw-bold'>Code Reengineering</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto text-center">
@@ -39,9 +39,6 @@ const NavBar = () => {
                 );
               })}
             </Nav>
-            <div className='text-center'>
-              <button className='btn btn-outline-danger rounded-1'>Join With Us</button>
-            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

@@ -7,8 +7,8 @@ const Footer = () => {
       <Container>
         <Row className="d-flex justify-content-between">
           <Col lg="5">
-            <h3 className="fw-bold">MCO</h3>
-            <p className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rerum temporibus recusandae at voluptatibus. Atque libero numquam dolore accusantium necessitatibus.</p>
+            <h3 className="fw-bold">Code Reengineering</h3>
+            <p className="desc">Website dibuat oleh 2602075415-Thevid Oswald Berrius dan 2602069210-David Keane untuk mata kuliah Code Reengineering COMP6106001 dengan dosen pengajar D6665-Rezki Yunanda, S.Kom., M.Kom.</p>
             <div className="no mb-1 mt-4">
               <Link className="text-decoration-none">
                 <i className="fa-brands fa-whatsapp"></i>
@@ -18,17 +18,15 @@ const Footer = () => {
             <div className="mail">
               <Link className="text-decoration-none">
                 <i className="fa-regular fa-envelope"></i>
-                <p className="m-0">mco.coaching@gmail.com</p>
+                <p className="m-0">thevid.berrius@binus.ac.id</p>
               </Link>
             </div>
           </Col>
           <Col className="d-flex flex-column col-lg-2 col mt-lg-0 mt-5">
             <h5 className="fw-bold">Menu</h5>
             <Link to="">Home</Link>
-            <Link to="kelas">Kelas</Link>
-            <Link to="testimonial">Testimonial</Link>
-            <Link to="faq">FAQ</Link>
-            <Link to="syaratketen">Syarat & Ketentuan</Link>
+            <Link to="dispensables">Dispensables</Link>
+            <Link to="changepreventer">Change Preventer</Link>
           </Col>
           <Col lg="4" className="mt-lg-0 mt-5">
           <h5 className="fw-bold mb-3">Subscribe untuk info menarik</h5>
@@ -46,7 +44,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col>
-            <p className="text-center px-md-0 px-3">&copy; Copyright {new Date().getFullYear()} by <span className="fw-bold">MCO Company</span>, All Right Reserved</p>
+            <p className="text-center px-md-0 px-3">&copy; Copyright {new Date().getFullYear()} by <span className="fw-bold">Kwek-Kwek</span>, All Right Reserved</p>
           </Col>
         </Row>
       </Container>
